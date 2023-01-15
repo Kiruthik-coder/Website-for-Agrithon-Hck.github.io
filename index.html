@@ -4,30 +4,36 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>EgHack</title>
+        <title>Agrithon</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link href="style.css" rel="stylesheet">
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     </head>
 
 
-    <header class="text-gray-400 bg-gray-900 body-font">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-            <a class="mr-5 hover:text-white">First Link</a>
-            <a class="mr-5 hover:text-white">Second Link</a>
-            <a class="mr-5 hover:text-white">Third Link</a>
-            <a class="hover:text-white">Fourth Link</a>
+    <header class="text-gray-400 bg-gray-900 body-font-poppins">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center font-poppins">
+          <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto font-poppins">
+            <a class="mr-5 hover:text-white font-poppins" href="#Home">Home</a>
+            <a class="mr-5 hover:text-white font-poppins" href="#Tracks">Tracks</a>
+            <a class="mr-5 hover:text-white font-poppins" href="#Timeline">Timeline</a>
+            <a class="mr-5 hover:text-white font-poppins" href="#Sponsers">Sponsers</a>
+            <a class="hover:text-white font-poppins" href="#Sponsers">About us</a>
           </nav>
-          <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
+          <a class="flex order-first lg:order-none lg:w-1/5 title-font font-poppins items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
             <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-purple-500 rounded-full" viewBox="0 0 24 24">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg> -->
-            <span class="ml-3 text-xl xl:block lg:hidden">Agrithon</span>
+            <span class="ml-3 text-4xl xl:block lg:hidden">
+              <h1 class="font-poppins ">
+              Agrithon
+            </h1>
+            </span>
           </a>
           <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-            <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Button
+            <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 ">Register
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
@@ -36,19 +42,18 @@
         </div>
     </header>
 
-
-    <section class="text-gray-400 bg-gray-900 body-font">
-        
+    <section class="text-gray-400 bg-gray-900 body-font" id="Home">
+    
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Artificial intelligence (AI) For
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-poppins text-white">Artificial intelligence (AI) For
               <br class="hidden lg:inline-block">Precision Agriculture
             </h1>
-            <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+            <p class="mb-8 leading-relaxed font-poppins">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
             <div class="flex justify-center">
-              <button class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">Button</button>
-              <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Button</button>
+              <button class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">Register Now</button>
+
             </div>
           </div>
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -58,7 +63,8 @@
     </section>
 
 
-      <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+
+      <section class=" text-gray-400 bg-gray-900 body-font overflow-hidden" id="Tracks">
 
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col">
@@ -66,15 +72,15 @@
                   <div class="w-24 h-full bg-purple-500"></div>
                 </div>
                 <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
-                  <h1 class="sm:w-2/5 text-white font-medium title-font text-2xl mb-2 sm:mb-0">Tracks</h1>
-                  <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">Street art subway tile salvia four dollar toast bitters selfies quinoa yuccie synth meditation iPhone intelligentsia prism tofu. Viral gochujang bitters dreamcatcher.</p>
+                  <h1 class="sm:w-2/5 text-white title-font font-poppins text-2xl mb-2 sm:mb-0">TRACKS</h1>
+                  <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0 font-poppins">Street art subway tile salvia four dollar toast bitters selfies quinoa yuccie synth meditation iPhone intelligentsia prism tofu. Viral gochujang bitters dreamcatcher.</p>
                 </div>
               </div>
           <div class="flex flex-wrap -m-12">
             <div class="p-12 md:w-1/2 flex flex-col items-start">
-              <span class="inline-block py-1 px-2 rounded bg-gray-800 text-gray-400 text-opacity-75 text-xs font-medium tracking-widest">CATEGORY</span>
-              <h2 class="sm:text-3xl text-2xl title-font font-medium text-white mt-4 mb-4">Roof party normcore before they sold out, cornhole vape</h2>
-              <p class="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric. Cray pug you probably haven't heard of them hexagon kickstarter craft beer pork chic.</p>
+              <span class="inline-block py-1 px-2 rounded bg-gray-800 text-gray-400 text-opacity-75 text-xs font-poppins tracking-widest">CATEGORY</span>
+              <h2 class="sm:text-3xl text-2xl title-font font-poppins text-white mt-4 mb-4 ">Roof party normcore before they sold out, cornhole vape</h2>
+              <p class="leading-relaxed mb-8 font-poppins">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric. Cray pug you probably haven't heard of them hexagon kickstarter craft beer pork chic.</p>
               <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-800 border-opacity-75 mt-auto w-full">
                 <a class="text-purple-400 inline-flex items-center">Learn More
                   <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -86,9 +92,9 @@
 
             </div>
             <div class="p-12 md:w-1/2 flex flex-col items-start">
-              <span class="inline-block py-1 px-2 rounded bg-gray-800 text-gray-400 text-opacity-75 text-xs font-medium tracking-widest">CATEGORY</span>
-              <h2 class="sm:text-3xl text-2xl title-font font-medium text-white mt-4 mb-4">Pinterest DIY dreamcatcher gentrify single-origin coffee</h2>
-              <p class="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric.</p>
+              <span class="inline-block py-1 px-2 rounded bg-gray-800 text-gray-400 text-opacity-75 text-xs font-poppins tracking-widest">CATEGORY</span>
+              <h2 class="sm:text-3xl text-2xl title-font font-poppins text-white mt-4 mb-4">Pinterest DIY dreamcatcher gentrify single-origin coffee</h2>
+              <p class="leading-relaxed mb-8 font-poppins">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric.</p>
               <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-800 border-opacity-75 mt-auto w-full">
                 <a class="text-purple-400 inline-flex items-center">Learn More
                   <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -102,7 +108,7 @@
         </div>
       </section>
 
-    <section class="text-gray-400 bg-gray-900 body-font">
+    <section class="text-gray-400 bg-gray-900 body-font" id="Timeline">
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
             <div class="flex flex-col">
                 <div class="h-1 bg-gray-800 rounded overflow-hidden">
@@ -186,9 +192,11 @@
         </div>
       </section>
 
+      <!-- Sponsers -->
 
-      <section class="text-gray-400 bg-gray-900 body-font">
+      <section class="text-gray-400 bg-gray-900 body-font" id="Sponsers">
         <div class="container px-5 py-24 mx-auto">
+          <!-- Title -->
             <div class="flex flex-col">
                 <div class="h-1 bg-gray-800 rounded overflow-hidden">
                   <div class="w-24 h-full bg-purple-500"></div>
@@ -198,13 +206,15 @@
                   <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">Street art subway tile salvia four dollar toast bitters selfies quinoa yuccie synth meditation iPhone intelligentsia prism tofu. Viral gochujang bitters dreamcatcher.</p>
                 </div>
               </div>
+
+              <!-- Nvidia -->
           <div class="flex flex-wrap -m-4">
             <div class="p-4 lg:w-1/2 md:w-1/2">
               <div class="h-full flex flex-col items-center text-center">
-                <img alt="team" class="flex-shrink-0 rounded-lg w-56 h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-56 h-56 object-cover object-center mb-4" src="images/nvidia_logo.png">
                 <div class="w-full">
-                  <h2 class="title-font font-medium text-lg text-white">Alper Kamu</h2>
-                  <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                  <h2 class="title-font font-medium text-lg text-white">Nvidia</h2>
+                  <br>
                   <!-- <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> -->
                   <span class="inline-flex">
                     <a class="text-gray-700">
@@ -226,13 +236,14 @@
                 </div>
               </div>
             </div>
+
+            <!-- Tihan -->
             <div class="p-4 lg:w-1/2 md:w-1/2">
               <div class="h-full flex flex-col items-center text-center">
-                <img alt="team" class="flex-shrink-0 rounded-lg w-56 h-56 object-cover object-center mb-4" src="https://dummyimage.com/201x201">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-56 h-56 object-cover object-center mb-4" src="images/Tihan_logo.png">
                 <div class="w-full">
-                  <h2 class="title-font font-medium text-lg text-white">Holden Caulfield</h2>
-                  <h3 class="text-gray-500 mb-3">UI Developer</h3>
-                  <!-- <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> -->
+                  <h2 class="title-font font-medium text-lg text-white">Tihan</h2>
+                  <br>
                   <span class="inline-flex">
                     <a class="text-gray-700">
                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -259,8 +270,12 @@
         </div>
       </section>
 
+      <!--PRIZE-->
+
       <section class="text-gray-400 bg-gray-900 body-font">
         <div class="container px-5 py-24 mx-auto">
+
+          <!-- Heading -->
             <div class="flex flex-col">
                 <div class="h-1 bg-gray-800 rounded overflow-hidden">
                   <div class="w-24 h-full bg-purple-500"></div>
@@ -270,6 +285,8 @@
                   <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">Street art subway tile salvia four dollar toast bitters selfies quinoa yuccie synth meditation iPhone intelligentsia prism tofu. Viral gochujang bitters dreamcatcher.</p>
                 </div>
               </div>
+
+              <!-- 1st Prize -->
           <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col">
             <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-purple-400 bg-gray-800 flex-shrink-0">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
@@ -282,6 +299,8 @@
 
             </div>
           </div>
+
+          <!-- 2nd Prize -->
           <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col">
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <h2 class="text-white text-lg title-font font-medium mb-2">The Catalyzer</h2>
@@ -296,6 +315,8 @@
               </svg>
             </div>
           </div>
+
+          <!-- erd Prize -->
           <div class="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
             <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-purple-400 bg-gray-800 flex-shrink-0">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
@@ -312,7 +333,7 @@
         </div>
       </section>
 
-
+    <!-- Footer -->
 
       <footer class="text-gray-400 bg-gray-900 body-font">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
@@ -322,8 +343,8 @@
             </svg>
             <span class="ml-3 text-xl">Tailblocks</span>
           </a>
-          <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2020 Tailblocks —
-            <a href="https://twitter.com/knyttneve" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@knyttneve</a>
+          <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2022
+            <a href="https://twitter.com/knyttneve" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@</a>
           </p>
           <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a class="text-gray-400">
